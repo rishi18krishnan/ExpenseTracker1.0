@@ -94,7 +94,7 @@ class _NewExpenseState extends State<NewExpense> {
                   controller: _amtController,
                   keyboardType: TextInputType.number,
                   decoration: const InputDecoration(
-                      prefixText: '\$ ', label: Text('Amount')),
+                      prefixText: '\Rs ', label: Text('Amount')),
                 ),
               ),
               const SizedBox(width: 16),
